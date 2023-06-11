@@ -4,15 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main_layout"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Permissions"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/showToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Toast"
+            android:layout_below="@id/reset"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/exploit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show toast and Perm"
+            android:layout_below="@id/showToast"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/launchPermission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Launch parameters"
+            android:layout_below="@id/exploit"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
