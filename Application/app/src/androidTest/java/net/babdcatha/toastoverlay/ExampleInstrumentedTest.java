@@ -1,4 +1,4 @@
-package net.babdcatha.permissiondisguise;
+package net.babdcatha.toastoverlay;
 
 import android.content.Context;
 

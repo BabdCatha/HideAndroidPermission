@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">PermissionDisguise</string>
+    <string name="app_name">Toast Overlay</string>
+    <string name="description">We are a small company, only supported by advertisement, but we also hate advertisement. This is why we offer the possibility of completely disabling it. We ask that you consider this option and refrain from using it if you want to support us. That being said, feel free to disable and enable ads at any point in time.</string>
 </resources>

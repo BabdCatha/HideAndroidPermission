@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'net.babdcatha.permissiondisguise'
+    namespace 'net.babdcatha.toastoverlay'
     compileSdk 33
 
     defaultConfig {
-        applicationId "net.babdcatha.permissiondisguise"
+        applicationId "net.babdcatha.toastoverlay"
         minSdk 22
         targetSdk 33
         versionCode 1

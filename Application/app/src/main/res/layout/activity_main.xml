@@ -19,19 +19,19 @@
             android:layout_centerInParent="true"/>
 
         <Button
-            android:id="@+id/showToast"
+            android:id="@+id/attack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show Toast"
+            android:text="Launch Attack"
             android:layout_below="@id/reset"
             android:layout_centerHorizontal="true"/>
 
         <Button
-            android:id="@+id/exploit"
+            android:id="@+id/demonstration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show toast and Perm"
-            android:layout_below="@id/showToast"
+            android:text="Transparent Attack"
+            android:layout_below="@id/attack"
             android:layout_centerHorizontal="true"/>
 
         <Button
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Launch parameters"
-            android:layout_below="@id/exploit"
+            android:layout_below="@id/demonstration"
             android:layout_centerHorizontal="true"/>
 
     </RelativeLayout>
