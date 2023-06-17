@@ -11,36 +11,45 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/reset"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reset Permissions"
-            android:layout_centerInParent="true"/>
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
 
-        <Button
-            android:id="@+id/attack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Launch Attack"
-            android:layout_below="@id/reset"
-            android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textAlignment="center"
+                android:text="Location : refused"/>
 
-        <Button
-            android:id="@+id/demonstration"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Transparent Attack"
-            android:layout_below="@id/attack"
-            android:layout_centerHorizontal="true"/>
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reset Permissions"/>
 
-        <Button
-            android:id="@+id/launchPermission"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Launch parameters"
-            android:layout_below="@id/demonstration"
-            android:layout_centerHorizontal="true"/>
+            <Button
+                android:id="@+id/attack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Launch Attack"/>
+
+            <Button
+                android:id="@+id/demonstration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transparent Attack"/>
+
+            <Button
+                android:id="@+id/launchPermission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Launch parameters"/>
+
+        </LinearLayout>
 
     </RelativeLayout>
 
